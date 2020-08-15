@@ -4,7 +4,7 @@ const showMoreStyles = (trigger, wrapper) => {
     const btn = document.querySelector(trigger);
 
     btn.addEventListener('click', function() {
-        getResource('http://localhost:3000/styles') //
+        getResource('http://localhost:3000/styles') // path to json
             .then(res => createCards(res))
             .catch(error => console.log(error));
 
