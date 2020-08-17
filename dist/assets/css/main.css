@@ -1258,6 +1258,11 @@ h4 {
   transform: translateX(-50%) !important;
   padding: 3rem 6rem 4rem 6rem;
 }
+
+.status {
+  text-align: center;
+}
+
 @media (max-width: 1399px) {
   .paints {
     display: none;
@@ -1269,7 +1274,7 @@ h4 {
     width: 100%;
   }
   .popup-design .file_upload > div {
-    display: none;
+    display: block;
   }
   .popup-design .file_upload > button {
     width: 100%;
