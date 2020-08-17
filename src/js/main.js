@@ -25,5 +25,5 @@ window.addEventListener('DOMContentLoaded', () => {
     filter();
     pictureSize('.sizes-block');
     accordion('.accordion-heading');
-    scrolling('.pageup');
+    scrolling('.pageup'); // smooth scroll
 });

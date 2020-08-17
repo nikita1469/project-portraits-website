@@ -1,3 +1,5 @@
+import calc from "./calc";
+
 const scrolling = (upSelector) => {
     const upElem = document.querySelector(upSelector);
 
@@ -64,7 +66,7 @@ const scrolling = (upSelector) => {
         }, timeInterval);
     };
 
-    calcScroll();
+    calcScroll(); //
 };
 
 export default scrolling;
