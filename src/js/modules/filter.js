@@ -15,7 +15,6 @@ const filter = () => {
           markChef = wrapper.querySelectorAll('.chef'),
           markGuy = wrapper.querySelectorAll('.guy'),
           no = document.querySelector('.portfolio-no');
-          console.log(markAll);
     
     const typeFilter = (markType) => {
         markAll.forEach(mark => {
